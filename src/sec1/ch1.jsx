@@ -162,16 +162,69 @@ export default function Chapter1() {
             <p>
                 <ul>
                     <li>
-                        <b>Add Breakpoints:</b> Add breakpoints in the source code where the error is suspected to exist.
+                        <b>Add Breakpoints:</b> Add breakpoints in the source code where the error is suspected to
+                        exist.
                     </li>
                     <li>
                         <b>Add Watch:</b> Add watch on important variables to see their values.
                     </li>
                     <li>
-                        <b>Add Extra Print Statements (optional):</b> Add extra print statements to get the values of variables.
+                        <b>Add Extra Print Statements (optional):</b> Add extra print statements to get the values of
+                        variables.
                     </li>
                 </ul>
             </p>
+            <h3>Debugging Tools</h3>
+            <p>
+                Debugging tool is a computer program that is used to test and debug other programs.
+                <ul>
+                    <li>A lot of public domain software like gdb and dbx are available for debugging.</li>
+                    <li>They offer console-based command line interfaces.</li>
+                    <li>Each programming language has its own debugger.</li>
+                    <li>A good IDE makes debugging easy.</li>
+                </ul>
+            </p>
+            <h2>Documentation (Comment)</h2>
+            <p>
+                Comments are text notes added to the program to provide explanatory information about the source code.
+                <ul>
+                    <li>Makes the source code easier for humans to understand.</li>
+                    <li>Ignored by compilers and interpreters.</li>
+                    <li>The syntax varies considerably with various programming languages.</li>
+                </ul>
+            </p>
+
+            <h3>Purpose</h3>
+            <ul>
+                <li><b>Planning and Reviewing:</b> In comments, we can write the pseudo code which we planned before writing
+                    the source code. This helps in reviewing the source code more easily because pseudo code is more
+                    understandable than the program.
+                </li>
+                <li><b>Code Description:</b> Code description is used by the programmer to make others understand his/her
+                    intent. It contains the summary of the code.
+                </li>
+                <li><b>Algorithmic Description:</b> Comments are used for explanation of the methodology.</li>
+                <li>Resource Inclusion: Logos, diagrams, and flowcharts consisting of ASCII art constructions can be
+                    inserted into source code formatted as a comment. Further, copyright notices can be embedded within
+                    source code as comments.
+                </li>
+                <li><b>Metadata:</b> Comments may contain metadata of the program. The metadata includes the name of the
+                    creator of the original version, current maintainer of the program, data when the first version was
+                    created, the name of the people who have edited the program files so far etc.
+                </li>
+                <li><b>Debugging:</b> Print statements are inserted throughout the program to print the intermediate values
+                    with the hope that some of the printed values will help to identify the errors. After doing
+                    debugging we comment those print statements.
+                </li>
+                <li><b>Automatic Documentation Generation:</b> Programming tools sometimes store documentation and metadata in
+                    comments. These may include insert positions for automatic header file inclusion, commands to set
+                    the file’s syntax highlighting mode, or the file’s revision number. These functional control
+                    comments are also commonly referred to as annotations. Keeping documentation within source code
+                    comments is considered as one way to simplify the documentation process, as well as increase the
+                    chances that the documentation will be kept up to date with changes in the code.
+                </li>
+            </ul>
+
         </>
     );
 }
