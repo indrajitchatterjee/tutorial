@@ -28,7 +28,7 @@ export default function Chapter2() {
             <h3>Characteristics of an Algorithm</h3>
             <p>
                 Algorithm has the following characteristics:<br></br>
-                <img src="/img.png" alt="" height={150}/>
+                <img src="/algo_chars.svg" alt="" height={150}/>
                 <ul>
                     <li><b>Clear and Unambiguous:</b> Algorithm should be clear and unambiguous. Each of its steps
                         should be clear in all aspects and must lead to only one meaning.
