@@ -14,7 +14,7 @@ a:hover {
 }
 
 body {
-  background-color: #a8a0bb;
+  background-color: #dedef4;
   margin: 0;
   text-align: justify;
   min-width: 320px;
@@ -23,14 +23,23 @@ body {
 
 h1 {
   color: #213547;
-  font-size: 3.2em;
+  font-size: 3.1em;
   line-height: 1.1;
+  background-image: linear-gradient(to right, #3a5ccc, #dedef4);
 }
 h2{
   color: #888888;
   font-size: 2em;
+  border-left-style: solid;
+  border-bottom-style: solid;
+  border-color: #3a5ccc;
 }
-
+table {
+  border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: #0b97c4;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
