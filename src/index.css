@@ -34,8 +34,14 @@ h2{
   border-bottom-style: solid;
   border-color: #3a5ccc;
 }
+h3{
+  border-bottom-style: solid;
+  border-color: #3a5ccc;
+}
 table {
   border-collapse: collapse;
+  border:1px solid;
+  border-color: #2c2e40;
 }
 tr:nth-child(even) {
     background-color: #0b97c4;
@@ -57,6 +63,33 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+code {
+  font-family: monospace;
+  display: block;
+  border-left: 3px solid #f36d33;
+  background: #ffeff0;
+  word-wrap: break-word;
+  white-space: pre;
+  width: fit-content;
+  box-decoration-break: clone;
+  padding: .1rem .3rem .2rem;
+  border-radius: .2rem;
+}
+
+.example{
+  font-family: monospace;
+  font-size: large;
+  display: block;
+  border: 3px solid #f36d33;
+  background: #ffeff0;
+  word-wrap: break-word;
+  white-space: pre;
+  width: fit-content;
+  box-decoration-break: clone;
+  padding: .1rem .3rem .2rem;
+  border-radius: .2rem;
 }
 
 @media (prefers-color-scheme: light) {

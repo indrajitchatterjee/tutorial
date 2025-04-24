@@ -1,4 +1,3 @@
-import React from "react";
 import {
     BrowserRouter as Router,
     Routes, Route,
@@ -19,7 +18,7 @@ export default function Home(){
                     <Route path="/ch2" element={<Chapter2 />} />
                 </Routes>
             </Router>
-            
+            This is home page
         </>
         
     );
