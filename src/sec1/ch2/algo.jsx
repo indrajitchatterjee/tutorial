@@ -1,6 +1,14 @@
-export default function Chapter2() {
+import {
+    Link,
+} from "react-router-dom";
+
+export default function Algo() {
     return (
         <>
+            <nav>
+                <Link to='/chapter2'>Techniques of Problem Solving</Link>|
+                <Link to='/chapter2/algo'>Algorithm</Link>|
+            </nav>
             <h1>Techniques of Problem Solving</h1>
             <p>In this tutorial, we will learn about:</p>
             <ul>
