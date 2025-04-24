@@ -1,15 +1,13 @@
+import {
+    Link,
+} from "react-router-dom";
+
+import Algo from './algo.jsx';
+
 export default function Chapter2(){
     return(
         <>
-            <h1>Techniques of Problem Solving</h1>
-            <p>In this tutorial, we will learn about:</p>
-            <ul>
-                <li>Algorithms</li>
-                <li>Flowcharting</li>
-                <li>Decision Table</li>
-                <li>Programming methodologies viz. top-down and bottom-up programming</li>
-                <li>Structured Programming Concepts</li>
-            </ul>
+            <Algo />
         </>
     );
 }

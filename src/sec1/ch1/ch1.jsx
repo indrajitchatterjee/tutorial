@@ -11,8 +11,8 @@ export default function Chapter1() {
                 </li>
                 <li>
                     <b>Devising the plan:</b> Once a problem has been understood, a proper action plan has to be devised
-                    to
-                    solve it. This step usually involves computing the result from the given set of inputs. It uses the
+                    to solve it. This step usually involves computing the result from the given set of inputs. It uses
+                    the
                     relationship drawn between inputs and outputs in the previous step. The complexity of this step
                     depends upon the complexity of the problem at hand.
                 </li>
@@ -196,11 +196,13 @@ export default function Chapter1() {
 
             <h3>Purpose</h3>
             <ul>
-                <li><b>Planning and Reviewing:</b> In comments, we can write the pseudo code which we planned before writing
+                <li><b>Planning and Reviewing:</b> In comments, we can write the pseudo code which we planned before
+                    writing
                     the source code. This helps in reviewing the source code more easily because pseudo code is more
                     understandable than the program.
                 </li>
-                <li><b>Code Description:</b> Code description is used by the programmer to make others understand his/her
+                <li><b>Code Description:</b> Code description is used by the programmer to make others understand
+                    his/her
                     intent. It contains the summary of the code.
                 </li>
                 <li><b>Algorithmic Description:</b> Comments are used for explanation of the methodology.</li>
@@ -212,11 +214,13 @@ export default function Chapter1() {
                     creator of the original version, current maintainer of the program, data when the first version was
                     created, the name of the people who have edited the program files so far etc.
                 </li>
-                <li><b>Debugging:</b> Print statements are inserted throughout the program to print the intermediate values
+                <li><b>Debugging:</b> Print statements are inserted throughout the program to print the intermediate
+                    values
                     with the hope that some of the printed values will help to identify the errors. After doing
                     debugging we comment those print statements.
                 </li>
-                <li><b>Automatic Documentation Generation:</b> Programming tools sometimes store documentation and metadata in
+                <li><b>Automatic Documentation Generation:</b> Programming tools sometimes store documentation and
+                    metadata in
                     comments. These may include insert positions for automatic header file inclusion, commands to set
                     the file’s syntax highlighting mode, or the file’s revision number. These functional control
                     comments are also commonly referred to as annotations. Keeping documentation within source code

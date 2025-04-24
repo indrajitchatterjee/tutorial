@@ -1,23 +1,10 @@
-import {
-    Link,
-} from "react-router-dom";
-
+import Ch2Header from "../../components/ch2header.jsx";
+import Chapter2Nav from "../../components/Ch2Nav.jsx";
 export default function Algo() {
     return (
         <>
-            <nav>
-                <Link to='/chapter2'>Techniques of Problem Solving</Link>|
-                <Link to='/chapter2/algo'>Algorithm</Link>|
-            </nav>
-            <h1>Techniques of Problem Solving</h1>
-            <p>In this tutorial, we will learn about:</p>
-            <ul>
-                <li>Algorithms</li>
-                <li>Flowcharting</li>
-                <li>Decision Table</li>
-                <li>Programming methodologies viz. top-down and bottom-up programming</li>
-                <li>Structured Programming Concepts</li>
-            </ul>
+            <Ch2Header />
+            <Chapter2Nav/>
             <h2>Algorithm</h2>
             <p>
                 <b>Algorithm</b> is a finite sequence of well-defined, computer-implementable instructions, typically to

@@ -3,8 +3,8 @@ import {
     Routes, Route,
     Link
 } from 'react-router-dom';
-import Chapter1 from "./sec1/ch1";
-import Chapter2 from "./sec1/ch2";
+import Chapter1 from "./sec1/ch1/ch1.jsx";
+import Chapter2 from "./sec1/ch2/algo.jsx";
 export default function Home(){
     return(
         <>

@@ -1,4 +1,4 @@
-export default function Layout ({ children })  {
+export default function NestedLayout ({ children })  {
     return (
         <>
 

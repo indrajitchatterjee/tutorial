@@ -92,6 +92,10 @@ code {
   border-radius: .2rem;
 }
 
+.example-flex-container{
+  display: flex;
+  justify-content: space-around;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
