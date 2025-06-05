@@ -1,6 +1,3 @@
-import {
-    Link,
-} from "react-router-dom";
 import Ch2Header from "../../components/ch2header.jsx";
 import Chapter2Nav from "../../components/Ch2Nav.jsx";
 
@@ -73,7 +70,7 @@ export default function Flowchart() {
             <h3>Flowchart Symbols</h3>
             <p>
                 Flowcharts use simple geometric shapes to depict processes and arrows to show relationships and
-                pro-cess/data flow. Here is a chart for some of the common symbols used in drawing flowcharts.
+                process/data flow. Here is a chart for some of the common symbols used in drawing flowcharts.
             </p>
             <table>
                 <thead>
@@ -90,39 +87,39 @@ export default function Flowchart() {
                         <td>Used at the beginning and end of the algorithm to show start and end of the program.</td>
                     </tr>
                     <tr>
-                        <td><img src="/chart_symbols/process.png" width='50px' /></td>
+                        <td><img src="/chart_symbols/process.png" width='50px' alt={'Process'}/></td>
                         <td>Process</td>
                         <td>Indicates processes like mathematical operations.</td>
                     </tr>
                     <tr>
-                        <td><img src="/chart_symbols/input.png" width={'50px'} /></td>
+                        <td><img src="/chart_symbols/input.png" width={'50px'} alt={'input'}/></td>
                         <td>Input/ Output</td>
                         <td>Used for denoting program inputs and outputs.</td>
                     </tr>
                     <tr>
-                        <td><img src="/chart_symbols/decission.png" width={'50px'}/></td>
+                        <td><img src="/chart_symbols/decission.png" width={'50px'} alt={'decision'}/></td>
                         <td>Decision</td>
                         <td>Stands for decision statements in a program, where answer is usually Yes or No.</td>
                     </tr>
                     <tr>
-                        <td><img src="/chart_symbols/arrow.png" alt="Arrow" width="50px" srcset="" /></td>
+                        <td><img src="/chart_symbols/arrow.png" alt="Arrow" width="50px"  /></td>
                         <td>Arrow</td>
                         <td>Shows relationships between different shapes.</td>
                     </tr>
                     <tr>
-                        <td><img src='/chart_symbols/on_page_connect.png' width={'50px'} /></td>
+                        <td><img src='/chart_symbols/on_page_connect.png' width={'50px'} alt={'on page connector'} /></td>
                         <td>On-page Connector</td>
                         <td>Connects two or more parts of a flowchart, which are on the same page.</td>
                     </tr>
                     <tr>
-                        <td><img src="/chart_symbols/off_page_connect.png" alt="Off-Page Connector" width="50px" srcset="" /></td>
+                        <td><img src="/chart_symbols/off_page_connect.png" alt="Off-Page Connector" width="50px"  /></td>
                         <td>Off-page Connector</td>
                         <td>Connects two parts of a flowchart which are spread over different pages.</td>
                     </tr>
                 </tbody>
             </table>
             <h3>Some Examples</h3>
-            <p>Let's now see some examples of some popular problems.</p>
+            <p>Let&apos;s now see some examples of some popular problems.</p>
             <div className="example-flex-container">
                 <div>
                     <h4>Find the sum of two input numbers</h4>

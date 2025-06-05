@@ -9,6 +9,8 @@ import Chapter1 from './sec1/ch1/ch1.jsx';
 import Chapter2 from './sec1/ch2/Page.jsx'
 import Algo from "./sec1/ch2/algo.jsx";
 import Flowchart from "./sec1/ch2/flowchart.jsx";
+import DecisionTable from "./sec1/ch2/decision_table.jsx";
+import StructuredProgramming from "./sec1/ch2/structured_programming.jsx";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
                 <Route path={"/chapter2"} element={<Chapter2 />} />
                 <Route path={"/chapter2/algo"} element={<Algo />} />
                 <Route path={"/chapter2/flowchart"} element={<Flowchart />} />
+                <Route path={"/chapter2/decisiontable"} element={<DecisionTable />} />
+                <Route path={'/chapter2/structuredprogramming'} element={<StructuredProgramming />} />
             </Routes>
         </Router>
     </>
